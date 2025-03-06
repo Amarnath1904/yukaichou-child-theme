@@ -1,0 +1,35 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<div class="contact-form-container">
+    <div>
+        <h1 id="contact-form-title">
+            WOULD YOU LIKE YU-KAI CHOU TO WORK WITH YOUR ORGANIZATION?
+        </h1>
+        <p id="contact-form-description">
+            If you are interested in working with Yu-kai Chou for a business project, workshop, speech or presentation, or
+            licensing deal, please fill out the form below.
+        </p>
+    </div>
+    <form style="width: 600px;" action="#" method="POST">
+        <!-- Name Fields -->
+        <label for="first-name">Name <span style="color: red;">*</span></label>
+        <div class="contact-form-name">
+            <input type="text" id="first-name" name="first-name" placeholder="First" required>
+        </div>
+
+        <!-- Organization -->
+        <label for="organization">Organization</label>
+        <input type="text" id="organization" name="organization" placeholder="Your Organization">
+
+        <!-- Email -->
+        <label for="email">Email <span style="color: red;">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <!-- Message -->
+        <label for="message">Comment or Message <span style="color: red;">*</span></label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+        <!-- Submit Button -->
+        <button id="Submit_btn" type="submit">Sent to Yu-kai</button>
+    </form>
+</div>

@@ -1,0 +1,90 @@
+/* Blog Post Container */
+
+
+#Intro{
+    background-color: #000a12;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 0 10%;
+}
+#tital{
+    width: 50%;
+
+
+}
+#featured_image{
+    width: 50%;
+}
+.wp-block-post-author__avatar img{
+    border-radius: 30px;
+}
+.wp-block-post-author__content{
+    display: flex;
+    align-items: center;
+}
+
+.blog-post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+/* Fixed Sidebar */
+.fixed-sidebar {
+    position: fixed;
+    top: 220px; /* Adjust based on header height */
+    left: 20px;
+    width: 280px;
+    background: #060C1B;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 18px;
+}
+
+/* Blog Content (Adjust for Fixed Sidebar) */
+.blog-content {
+    flex: 1;
+    margin-left: 340px; /* Adjust based on sidebar width */
+    background: #14171F;
+    padding: 20px;
+    border-radius: 15px;
+
+    font-family: 'Roboto';
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .fixed-sidebar {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .blog-content {
+        margin-left: 0;
+    }
+}

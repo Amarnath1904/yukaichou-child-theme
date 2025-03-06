@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Parabole';
+    src: url('./assets/fonts/Parabole.woff2') format('woff2'),
+         url('./assets/fonts/Parabole.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}   
+
+
+.learn-gamification-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+
+    margin: auto;
+    color: #fff;
+}
+
+.learn-gamification-title {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+}
+
+.lg-section {
+    width: 1400px;
+    background-color: #0a0e1a;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top:30px;
+}
+
+.lg-section h2 {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Parabole', sans-serif;
+}
+
+/* Fix Button Styling */
+.wp-block-button__link {
+    font-family: "Inter-Tight", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+
+    width: 190px;
+
+    box-shadow: 5px 5px 0px 4px #00ff62;
+    
+    transition: box-shadow .2s;
+}
+
+
+.wp-block-button__link:hover {
+    box-shadow: -5px -5px 0px 4px #00ff62;
+    transition: box-shadow .2s;
+}
+
+.wp-block-button__link:focus {
+    
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    transition: background-color color .2s;
+}
+
+.wp-block-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.wp-block-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#book_image{
+    width: 280px;
+    height: auto;
+}

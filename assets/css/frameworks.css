@@ -1,0 +1,24 @@
+/* General container styling */
+.frameworks-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+
+    h1{
+        font-size: 40px;
+        line-height: 54px;
+    }
+}
+.frameworks-title{
+    font-size: 64px !important;
+    margin-bottom: 90px;
+    line-height: 78px !important;
+
+}
+/* Ensure images are responsive and do not overflow */
+.frameworks-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}

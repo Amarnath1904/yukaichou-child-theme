@@ -1,0 +1,30 @@
+/* Ensure editor background matches frontend */
+
+
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wp-block {
+    max-width: 800px; /* Adjust as needed */
+    background: #14171F; /* Match frontend */
+    padding: 20px;
+}
+
+/* Fix text color */
+.editor-styles-wrapper {
+    color: #14171F; /* Ensure readable text */
+}
+
+.editor-styles-wrapper{
+    background-color: #14171F;
+}
+
+/* Fix image width in editor */
+img {
+    width: 100% !important;
+
+    height: auto;
+    display: block;
+}
