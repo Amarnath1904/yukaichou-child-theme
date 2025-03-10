@@ -1,0 +1,210 @@
+/* Main Layout Styles */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+/* Section Styles */
+.section {
+    display: flex;
+    flex-direction: column; /* Changed from row to column */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 60px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #060C1B; /* Custom blue color */
+    color: white;
+    margin-bottom: 30px;
+    text-align: center; /* Centering text for column layout */
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+.custom_heading {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column; /* Changed from row to column */
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.left-column, .right-column {
+    flex-basis: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-content {
+    padding-right: 20px;
+}
+
+.inner-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.inner-content a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.inner-content a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Video Container */
+.video-container {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.video-container iframe,
+.video-container video {
+    width: 100%;
+    border: none;
+    display: block;
+}
+
+/* Image Container */
+.image-container img,
+.book-cover img,
+.op-island img,
+.client-logos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.wp-block-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wp-block-button {
+    margin-bottom: 10px;
+}
+
+.wp-block-button__link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+/* Specific Button Styles */
+.btn-ted-talk {
+    background-color: #ff0000;
+    color: white;
+}
+
+.btn-learn-octalysis {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-google-scholar {
+    background-color: #4285F4;
+    color: white;
+}
+
+.btn-amazon {
+    background-color: #FF9900;
+    color: white;
+}
+
+.btn-octalysis-prime {
+    background-color: #5d7c36;
+    color: white;
+}
+
+.btn-metabox {
+    background-color: #f38144;
+    color: white;
+}
+
+.wp-block-button__link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Client Logos Section */
+.client-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.client-logos img {
+    max-width: 100px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.client-logos img:hover {
+    transform: scale(1.05);
+}
+
+/* Octalysis Diagram */
+.octalysis-diagram {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        flex-basis: 100%;
+    }
+
+    .inner-content {
+        padding-right: 0;
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+
+    .custom_heading {
+        font-size: 28px;
+    }
+
+    .wp-block-buttons {
+        justify-content: center;
+    }
+}

@@ -1,61 +1,147 @@
-<?php
-/*
-Template Name: Yu-Kai Chou Books
-*/
+<!-- wp:template-part {"slug":"header","theme":"yukaichou-child","tagName":"header"} /-->
 
-// Get header
-get_header();
-?>
+<div class="books-container">
 
-<div class="books-section">
-    <h1>Books Written by Yu-Kai Chou</h1>
+    <!-- Books Written by Yu-kai Chou Section -->
+    <div class="section-container books-header">
+        <h1 class="books-title">Books Written by Yu-kai Chou</h1>
 
-    <!-- Book Covers Section -->
-    <div class="book-covers">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/actionable-gamification-cover.jpg" alt="Actionable Gamification Book Cover" class="book-cover">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/10000-hours-play-cover.jpg" alt="10,000 Hours of Play Book Cover" class="book-cover">
+        <div class="books-showcase">
+            <div class="book-cover">
+                <img src="/yukaichou/wp-content/uploads/2023/08/book.png" alt="Actionable Gamification Book Cover">
+            </div>
+            <div class="book-cover">
+                <img src="/yukaichou/wp-content/uploads/2025/01/10000-hours-book.png" alt="10,000 Hours of Play Book Cover">
+            </div>
+        </div>
     </div>
 
-    <!-- 10,000 Hours of Play Section -->
-    <h2>Yu-Kai’s 2nd Book – 10,000 Hours of Play</h2>
-    <h3>Unlock Your Real-Life Legendary Success</h3>
-    <div class="book-description">
-        <p>Inside this groundbreaking book, you’ll discover:</p>
-        <ul>
-            <li>The 5-Step Framework to turn ANY goal into an addictive Real-Life RPG.</li>
-            <li>Discover your unique “Character Attributes” to unleash your Superpowers.</li>
-            <li>Level Up like in an RPG with a real-life Skill Tree.</li>
-            <li>The Quest Design secret to achieve goals effortlessly, as if you’re playing a video game.</li>
-        </ul>
-        <a href="#" class="button">Sign Up for Early VIP Offer</a>
+    <!-- Yu-kai's 2nd Book Section -->
+    <div class="section-container book-section">
+        <div class="book-content">
+            <div class="book-info">
+                <h2 class="book-title">Yu-kai's 2nd Book - <span class="book-italic">10,000 Hours of Play</span></h2>
+
+                <h3 class="book-subtitle">Unlock Your Real-Life Legendary Success</h3>
+
+                <p class="book-paragraph">Inside this groundbreaking book, you'll discover:</p>
+
+                <ul class="book-list">
+                    <li class="book-list-item">The 6-Step Framework to turn ANY goal into an addictive Real-Life RPG.</li>
+                    <li class="book-list-item">Discover your unique "Character Attributes" to unleash your "Superpowers" for Unstoppable Success.</li>
+                    <li class="book-list-item">Level Up like in an RPG with a real-life Skill Tree.</li>
+                    <li class="book-list-item">The Quest Design secret to achieve goals effortlessly, as if you're playing a video game.</li>
+                </ul>
+
+                <a href="#" class="button button-blue">SIGN UP For Early Bird VIP Offer</a>
+            </div>
+
+            <div class="book-visual">
+                <div class="video-placeholder">
+                    <div class="video-placeholder-content">
+                        <span>Book Trailer Video</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Testimonials Section -->
-    <h2>CEOs and Best Selling Authors Love Yu-Kai’s Books</h2>
-    <div class="testimonial">
-        <p><strong>Charles Huang</strong><br>Creator of Guitar Hero</p>
-        <p>“Life is full of challenges, fun, epic wins and losses. 10,000 Hours of Play by Yu-Kai Chou brilliantly captures the essence of turning life into an engaging journey of growth and discovery. This book guides readers to find rhythm and joy in their journey, transforming the path to success into a deeply rewarding experience.”</p>
+    <!-- CEOs and Best Selling Authors Section -->
+    <div class="section-container">
+        <h2 class="testimonials-title">CEOs and Best Selling Authors Love Yu-kai's Books</h2>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="testimonial-author">
+                    <strong>Eric S Yuan</strong><br>
+                    Founder & CEO of Zoom
+                </div>
+            </div>
+            <p>
+                Yu-kai Chou's 10,000 Hours of Play is a revolutionary guide that transforms everyday challenges into opportunities of joy and fulfillment. At Zoom, my mission has always been to deliver happiness to my employees as well as our customers. Similarly, this book offers a playful yet powerful roadmap for anyone looking to bring happiness into their personal and professional lives. An essential read for leaders and individuals alike who strive to infuse more play and purpose into their work and beyond.
+            </p>
+        </div>
+
+        <div class="testimonial-nav">
+            <span class="nav-dot nav-dot-active"></span>
+            <span class="nav-dot nav-dot-inactive"></span>
+            <span class="nav-dot nav-dot-inactive"></span>
+            <span class="nav-dot nav-dot-inactive"></span>
+        </div>
     </div>
 
-    <!-- Actionable Gamification Section -->
-    <h2>Yu-Kai’s 1st Book – Actionable Gamification</h2>
-    <div class="book-description">
-        <p>After 20+ years of Gamification practice and research, after consulting for clients such as Google, Accenture, and Tesla, I decided it was time to share my knowledge and expertise with everyone around the world.</p>
-        <p>To share my knowledge, I decided to write and publish a book about Gamification. But not just any book—my goal was to write the definitive book about “Gamification” that empowered a reader to immediately take action on their personal and professional lives.</p>
-        <p>I’ll admit: I was nervous when I published the book, but today, I am immensely proud and humbled by the positive impact that my book has created.</p>
-        <a href="#" class="button">Get my e-Book for FREE</a>
-        <a href="#" class="button">Buy on Amazon</a>
+    <!-- Yu-kai's 1st Book Section -->
+    <div class="section-container book-section">
+        <div class="book-content">
+            <div class="book-info">
+                <h2 class="book-title">Yu-kai's 1st Book - <span class="book-italic">Actionable Gamification</span></h2>
+
+                <p class="book-paragraph">
+                    After 20+ years of <a href="#" class="highlight-link">Gamification</a> practice and research, after consulting for clients such as Google, Accenture, and Tesla, I decided it was time to share my knowledge and expertise with everyone around the world.
+                </p>
+
+                <p class="book-paragraph">
+                    To share my knowledge, I decided to write and publish a book about Gamification. But not just any book: my goal was to write the definitive book about "Gamification" that empowered a reader to immediately take action on their personal and professional lives.
+                </p>
+
+                <p class="book-paragraph">
+                    I'll admit I was nervous when I published the book, but today, I am immensely proud and humbled by the positive impact that my book has created.
+                </p>
+
+                <div class="button-container">
+                    <a href="#" class="button button-white">Get my e-Book for FREE</a>
+                    <a href="#" class="button button-gold">Buy on Amazon</a>
+                </div>
+            </div>
+
+            <div class="book-visual">
+                <img src="/yukaichou/wp-content/uploads/2023/08/book.png" alt="Actionable Gamification Book Cover">
+            </div>
+        </div>
     </div>
 
-    <!-- Review Section -->
-    <h2>Actionable Gamification Review</h2>
-    <div class="testimonial">
-        <p><strong>Andrew Landis</strong><br>Founder & CEO of Lucky Diem</p>
-        <p>“Yu-Kai’s insights were instrumental in helping Lucky Diem supercharge our client La Quinta’s bookings per user by 20% and decrease churn per user by 15%. In a lift test against the control group, being able to achieve a viral coefficient of 50%, I would recommend any business owner to study and learn his Octalysis Framework.”</p>
+    <!-- Actionable Gamification Review Section -->
+    <div class="section-container">
+        <h2 class="testimonials-title">Actionable Gamification Review</h2>
+
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="/yukaichou/wp-content/uploads/2025/01/susie-wee.jpg" alt="Susie Wee" class="testimonial-image">
+                <div>
+                    <strong>Susie Wee</strong><br>
+                    VP at Google Core Experiences, Former SVP and CTO of Cisco DevNet at Cisco Systems
+                </div>
+            </div>
+            <p>
+                I've been following Yu-kai's work on gamification for years and have enjoyed his deep insights and actionable recommendations. <span class="testimonial-highlight">Octalysis</span> is a powerful and pragmatic framework to understand human nature and positive motivations that encourage people to do their best work. It should be required reading for anyone building, managing, or collaborating with a team, community, or ecosystem.
+            </p>
+        </div>
+
+        <div class="testimonial-nav">
+            <span class="nav-dot nav-dot-active"></span>
+            <span class="nav-dot nav-dot-inactive"></span>
+            <span class="nav-dot nav-dot-inactive"></span>
+        </div>
     </div>
+
 </div>
 
-<?php
-// Get footer
-get_footer();
-?>
+<!-- wp:template-part {"slug":"footer","theme":"yukaichou-child","tagName":"footer"} /-->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add any JavaScript interactions here
+        // For example, carousel functionality for testimonials
+
+        // Placeholder for testimonial navigation
+        const dots = document.querySelectorAll('.nav-dot');
+        if (dots.length > 0) {
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', function() {
+                    // Switch to corresponding testimonial
+                    // This would need implementation for actual carousel functionality
+                });
+            });
+        }
+    });
+</script>
